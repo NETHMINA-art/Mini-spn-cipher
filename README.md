@@ -6,7 +6,7 @@ A simplified **4-bit block cipher** written in Python, built to learn how a Subs
 
 ## How it works
 
-Encryption takes a 4-bit plaintext and a 4-bit key and runs three steps:
+Encryption takes a 4-bit plaintext and a 4-bit key and runs four steps:
 
 1. **Key rotation:** the key is rotated left by 1 bit.
 2. **XOR (key mixing):** the plaintext is XORed with the rotated key.
